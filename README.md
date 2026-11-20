@@ -1,15 +1,14 @@
 # 帧工坊 FrameKit V1.0.5
 
-**柠檬奶昔** · 视频序列帧与图像处理工具。支持视频裁剪、按时间段抽帧、色键抠像、动画预览和资源导出，也可单独处理本地图片。两端内置青柠和琥珀主题，素材在本机处理。
+**柠檬奶昔** · 视频序列帧与图像处理工具。支持视频裁剪、按时间段抽帧、色键抠像、动画预览和资源导出，也可单独处理本地图片。界面内置青柠和琥珀主题，素材在本机处理。
 
 ## 打开工具
 
 | 版本 | 入口 | 使用条件 |
 |---|---|---|
-| Web | [GitHub Pages 入口](https://beichuanc.github.io/FrameKit/) | 使用支持所选视频编码的浏览器 |
-| Windows 桌面端 | [打开 FrameKit.exe](./Desktop/FrameKit.exe) | 64 位 Windows 和 Microsoft Edge WebView2 Runtime |
+| Web | [在线使用](https://beichuanc.github.io/FrameKit/) | 使用支持所选视频编码的浏览器 |
 
-桌面端下载后双击运行。浏览器或桌面程序无法解码视频时，可以改用 H.264 编码的 MP4 或 WebM。
+浏览器无法解码视频时，可以改用 H.264 编码的 MP4 或 WebM。
 
 ## 视频转序列帧
 
@@ -36,8 +35,7 @@
 
 ## 文件位置
 
-- `Desktop/` 保存 Windows 桌面版。
-- `docs/` 保存 Web 站点文件。GitHub Pages 的发布源为 `main` 分支的 `/docs`。已安装 Python 时，在此目录运行 `python -m http.server 8080 --bind 127.0.0.1`，然后打开 [本地预览](http://127.0.0.1:8080/)。
-- `Source/` 提供对应版本的源代码和构建说明。
+- `docs/` 保存 Web 站点文件。GitHub Pages 从 `main` 分支的 `/docs` 发布。也可在该目录运行 `python -m http.server 8080 --bind 127.0.0.1` 进行本地预览。安装了 Python 的情况下，在浏览器打开 `http://127.0.0.1:8080/`。
+- [Web 源码包](./docs/FrameKit-Web-Source.zip)提供对应版本的源代码和构建说明。
 
-本项目使用 GPL-3.0。详见 [许可证](./LICENSE) 。
+本项目使用 GPL-3.0。详见 [许可证](./docs/LICENSE) 和 [来源说明](./docs/NOTICE.txt)。

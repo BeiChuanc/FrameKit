@@ -1,0 +1,8 @@
+FrameKit V1.0.5 · 柠檬奶昔
+
+2026-11-21 修改版。加入 Windows 桌面外壳、重新设计 Web 工作区，更新导航、主题与发行标识。
+
+上游项目：mowangblog/video-timesheet-web（今天又被Godot打了）。
+上游仓库：https://github.com/mowangblog/video-timesheet-web
+上游实现以 GNU GPL v3.0 授权发布。完整许可证见 LICENSE。
+分发构建产物时，随发行包提供同版本源代码和许可文件。
